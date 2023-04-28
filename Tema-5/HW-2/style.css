@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    width: 75%;
+}
+h1{
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+p{
+    border: 3px dotted green;
+}

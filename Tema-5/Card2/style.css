@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 10%;
+    background-color: whitesmoke;
+}
+.card{
+    margin-left: 30px;
+    width: 92%;
+    height: 343px;
+    border: 3px solid rgb(7, 4, 36);
+    background-color: rgb(7, 4, 36);
+}
+div{
+    margin-top:60px;
+    color: azure;
+    width: 40%;
+    border: 1px black;
+}
+h1{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+p{
+    margin-top: -17px;
+    font-family: 'Urbanist';
+    font-weight: 100;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.952);
+    opacity: 0.8;
+    margin-bottom: 25px;
+    line-height: 12px;
+    letter-spacing: 0.7px
+}
+.button{
+    font-size: 14px;
+    background-color: whitesmoke;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+    font-weight: 200;
+    border-radius: 40px;
+    color: rgb(7,4,36);
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+div{
+    margin-left: 100px;
+}
