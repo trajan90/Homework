@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    
+}
+.first-title {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 10px;
+}
+
+.left {
+    display: flex;
+    margin: 10px 10px;
+    width: 70%;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    padding-bottom: 30px;
+}
+.left-side {
+    width: 250px;
+
+}
+.left p {
+    line-height: 18px;
+    color: rgba(80, 79, 79, 0.623);
+    font-weight: 100;
+}
+.left .image {
+    background-image:url("./china.png");    
+    width: 690px;
+    height: 430px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 1px;
+    background-size: cover;
+    border-left: 1px solid rgb(128, 128, 128, 0.4);
+}
+.right {
+    border-left: 1px solid rgb(128, 128, 128, 0.4);
+    margin: 0px 20px;
+    width: 27%;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    padding-left: 20px;
+    
+}
+
+
+.right .article-right {
+    padding:10px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128,0.4);
+
+}
+.right  .paragraf {
+    margin-top: -17px;
+}
+.right .article-right1 {
+    margin-left: 8px;
+    border-bottom: 1px solid rgba(128, 128, 128,0.4);
+
+}
+.right .article-right1 h4 {
+    margin-top: 0px;
+}
+.article-right-no-border {
+    margin-left: 8px;
+
+}
+.article {
+    
+    width: 250px ;
+    height: 190px;
+    
+}
+.article1 {
+    border-bottom: 1px solid rgba(128, 128, 128,0.2);
+}
+.article1 h4 {
+    margin-top: 0px;
+}
+.right span {
+    position: relative;
+    bottom: 20px;
+    color: rgba(128, 128, 128, 2.6);
+    font-size: 10px;
+}
+span {
+    color: rgba(128, 128, 128, 2.6);
+    font-size: 10px;
+    font-weight: 100;
+}
+.bottom {
+    margin-top: 10px;
+    display: flex;
+    width: 68%;
+}
+.bottom .article-bottom1 {
+    margin: 0px 10px;
+    border-right: 1px solid rgb(128, 128, 128, 0.4);
+    margin-right: 20px;
+}
+.bottom .article-bottom2 {
+    margin-left: 20px;
+}
+.bottom p {
+    color: rgba(80, 79, 79, 0.623);
+    font-weight: 100;
+
+}
+.bottom .article-bottom1 h4 {
+    margin-top: 5px;
+    
+}
+.bottom .article-bottom2 h4 {
+    margin-top: 5px;
+}
+.left .image p {
+    letter-spacing: 0.5px;
+    font-size: 9px;
+    color: rgb(100, 96, 96);
+    position: relative;
+    left: 501px;
+    top: 420px;
+}

@@ -1,0 +1,68 @@
+body {
+    max-width: 1200px;
+    max-height: 400px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    margin: 10px auto;
+  
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    
+}
+.article {
+    margin: 0 auto;
+}
+
+.article .image1 {
+    background-image:url("https://static01.nyt.com/images/2023/05/07/multimedia/07ukraine-ledeall-01-kmpv/07ukraine-ledeall-01-kmpv-videoLarge.jpg");
+    background-size: cover;
+    width: 220px;
+    height: 180px;
+}
+.article .image2 {
+    background-image:url("https://static01.nyt.com/images/2023/05/07/multimedia/07ukraine-pokrovsk-dispatch-01-tpkg-promo/07ukraine-pokrovsk-dispatch-01-tpkg-videoLarge.jpg");
+    background-size: cover;
+    width: 220px;
+    height: 180px;
+}
+.article .image3 {
+    background-image:url("https://static01.nyt.com/images/2023/05/07/multimedia/07skorea-japan-top-jgvk/07skorea-japan-top-jgvk-videoLarge.jpg");
+    background-size: cover;
+    width: 220px;
+    height: 180px;
+    
+        
+}
+.article .image4 {
+    background-image:url("https://static01.nyt.com/images/2023/05/05/multimedia/05coronation-identity-01-tfkl/05coronation-identity-01-tfkl-videoLarge.jpg");
+    background-size: cover;
+    width: 220px;
+    height: 180px;
+    
+        
+}
+.article .image5 {
+    background-image:url("https://static01.nyt.com/images/2023/04/14/multimedia/00German-cannabisjudge-profile-01-pkwg/00German-cannabisjudge-profile-01-pkwg-videoLarge.jpg");
+    background-size: cover;
+    width: 220px;
+    height: 180px;
+    
+        
+}
+.article .titles {
+    width: 220px;
+
+}
+.article h4{
+    margin: 0;
+}
+header .top-title {
+    font-weight: 800;
+    position: relative;
+    right: -10px;    
+}
+
+
