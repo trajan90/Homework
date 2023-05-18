@@ -1,0 +1,52 @@
+.square,
+.rectangle,
+.circle,
+.rhombus {
+  width: 200px;
+  height: 200px;
+  margin: 200px 200px;
+  transition: all 0.3s ease;
+}
+
+.square {
+  background-color: red;
+}
+
+.rectangle {
+  background-color: blue;
+  width: 300px;
+}
+
+.circle {
+  background-color: green;
+  border-radius: 50%;
+}
+
+.rhombus {
+  background-color: yellow;
+  width: 200px;
+  height: 400px;
+  transform: rotate(45deg);
+}
+
+/* Hover effects */
+
+.square:hover {
+  transform: translate(50px, 50px) scale(1.2) skew(10deg, 10deg) rotate(45deg);
+  background-color: purple;
+}
+
+.rectangle:hover {
+  transform: translate(100px, -50px) scale(0.8, 1.2) skew(-20deg, 0deg) rotate(-30deg);
+  background-color: lightblue;
+}
+
+.circle:hover {
+  transform: translate(-30px, 20px) scale(1.5) skew(0deg, -20deg) rotate(60deg);
+  background-color: lightgreen;
+}
+
+.rhombus:hover {
+  transform: translate(-50px, -50px) scale(1.2) skew(-10deg, -10deg) rotate(-45deg);
+  background-color: lightyellow;
+}
