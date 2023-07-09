@@ -1,4 +1,4 @@
-let numar = -7;  // Numarul
+const numar = -7;  // Numarul
 
 if (numar > 0 && numar <= 10) {
     console.log("Numarul este cuprins intre 0 si 10.");
