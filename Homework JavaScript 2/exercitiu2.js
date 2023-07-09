@@ -1,6 +1,6 @@
 
-let numar1 = 60;
-let numar2 = 44;
+const numar1 = 60;
+const numar2 = 44;
 
 if (numar1 > numar2) {
     console.log("Numarul 1 este mai mare decat numarul 2.");
