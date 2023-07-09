@@ -1,4 +1,4 @@
-let number = -7;  // Numărul
+const number = -7;  // Numărul
 
 if (number > 0) {
     console.log("Numărul este pozitiv.");
